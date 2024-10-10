@@ -1,0 +1,14 @@
+These are global variables address:
+0x55b7f974f01c 
+0x55b7f974f014 
+0x55b7f974f010 
+
+These are local variables address:
+0x7ffc575835ac 
+0x7ffc575835b0 
+0x7ffc575835b4 
+
+These are allocated variables address:
+0x55b7faea92a0 
+0x55b7faea92c0 
+0x55b7faea92e0 
