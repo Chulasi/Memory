@@ -4,7 +4,7 @@
 //GLOBAL VARIABLE
 int shika = 0;
 int no = 1;
-int ko = 69;
+int ko = 2;
 
 //RECURSIVE FUNCTION
 int awesomemachine(int nice) {
@@ -23,17 +23,17 @@ int main() {
    int *please = malloc(sizeof(int) * 3);
 
    //GLOBAL ADDRESS
-   printf("These are global variables address:\n");
+   printf("DATA:\n");
    printf("%p \n", &shika); 
    printf("%p \n", &no);
    printf("%p \n", &ko);
 
    //LOCAL ADDRESS
-   printf("\nThese are local variables address:\n");
+   printf("\nSTACK:\n");
    awesomemachine(2);
 
    //MALLOC ADDRESS
-   printf("\nThese are allocated variables address:\n");
+   printf("\nHEAP:\n");
    printf("%p \n", help); 
    printf("%p \n", me);
    printf("%p \n", please);
